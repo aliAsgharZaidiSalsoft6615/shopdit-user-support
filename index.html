@@ -6,40 +6,69 @@
     <title>Shopdit Support</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f4f4f4;
+        background: #f0f2f5;
         color: #333;
       }
 
       header {
-        background-color: #1C003B; 
+        background-color: #1C003B;
         color: white;
         text-align: center;
-        padding: 30px 0;
+        padding: 40px 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       }
 
-      h1 {
+      header h1 {
         margin: 0;
+        font-size: 2.5em;
+      }
+
+      header p {
+        margin-top: 10px;
+        font-size: 1.1em;
+        color: #f0e6ff;
       }
 
       main {
-        max-width: 800px;
-        margin: 20px auto;
+        max-width: 900px;
+        margin: 30px auto;
         padding: 20px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      section {
+        margin-bottom: 30px;
       }
 
       h2 {
         color: #1C003B;
+        text-align: center;
+        margin-bottom: 20px;
       }
 
-      .contact-info,
-      .faq {
-        margin-bottom: 20px;
+      h3 {
+        color: #00796b;
+        margin-bottom: 15px;
+      }
+
+      h4 {
+        color: #ff5722;
+        margin-bottom: 8px;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      a {
+        color: #00796b;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
       }
 
       ul {
@@ -51,87 +80,120 @@
         margin-bottom: 15px;
       }
 
+      .card {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+
       footer {
         text-align: center;
-        padding: 20px 0;
+        padding: 25px 0;
         background-color: #1C003B;
         color: white;
-        position: relative;
-        bottom: 0;
-        width: 100%;
+        margin-top: 50px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
       }
     </style>
   </head>
+
   <body>
     <header>
       <h1>Shopdit Support</h1>
-      <p>Your official help center for Shopdit User app.</p>
+      <p>Your official help center for Shopdit User & Business apps.</p>
     </header>
 
     <main>
-      <section class="contact-info">
+
+      <!-- Contact Info -->
+      <section class="card">
         <h2>Contact Us</h2>
-        <p>Need assistance? Reach out to our support team:</p>
+        <p>If you need assistance with either app, reach out to our support team:</p>
         <ul>
-          <li>
-            Email:
-            <a href="mailto:support@shopdit.com">support@shopdit.com</a>
-          </li>
+          <li>Email: <a href="mailto:support@shopdit.com">support@shopdit.com</a></li>
           <li>Phone: <a href="tel:+16501234567">+1 650 123 4567</a></li>
         </ul>
       </section>
 
-      <section class="faq">
-        <h2>Frequently Asked Questions</h2>
+      <!-- User App FAQs -->
+      <section class="card">
+        <h2>Shopdit User App FAQs</h2>
 
-        <!-- USER APP FAQs -->
         <div class="faq-group">
-          <h3>User App</h3>
-
+          <h3>Account & Registration</h3>
           <div class="faq-item">
             <h4>How do I create an account?</h4>
-            <p>
-              Open the app, tap “Sign Up,” and follow the steps to register with
-              your email and password.
-            </p>
+            <p>Open the app, tap “Sign Up,” and follow the steps to register with your email and password.</p>
           </div>
 
           <div class="faq-item">
             <h4>How do I find deals and coupons near me?</h4>
-            <p>
-              Allow the app to access your location. The app will display nearby
-              businesses, deals, coupons, and events.
-            </p>
+            <p>Allow the app to access your location. The app will display nearby businesses, deals, coupons, and events.</p>
           </div>
 
           <div class="faq-item">
             <h4>How do Shopdit Points and Business Points work?</h4>
-            <p>
-              Shopdit Points and Business Points are loyalty rewards only. They
-              have no cash value and can be used to purchase items in addition
-              to real money.
-            </p>
+            <p>Shopdit Points and Business Points are loyalty rewards only. They have no cash value and can be used to purchase items in addition to real money.</p>
           </div>
 
           <div class="faq-item">
             <h4>Can I use the peer-to-peer marketplace?</h4>
-            <p>
-              Yes, you can list items you no longer need and contact sellers of
-              items nearby. Shopdit only provides contact information — all
-              transactions are handled between users.
-            </p>
+            <p>You can list items you no longer need and contact sellers nearby. Shopdit only provides contact information — all transactions are handled between users.</p>
           </div>
 
           <div class="faq-item">
             <h4>Can I use the app offline?</h4>
-            <p>
-              You’ll need an internet connection to view or update deals,
-              coupons, events, and marketplace listings. Favorited coupons can
-              be viewed offline.
-            </p>
+            <p>An internet connection is required to view/update deals, coupons, events, and marketplace listings. Favorited coupons can be viewed offline.</p>
           </div>
         </div>
       </section>
+
+      <!-- Business App FAQs -->
+      <section class="card">
+        <h2>Shopdit Business App FAQs</h2>
+
+        <div class="faq-group">
+          <h3>Getting Started</h3>
+          <div class="faq-item">
+            <h4>How do I sign up and create my business account?</h4>
+            <p>Download the Shopdit Business app, sign up with your business details, and choose a subscription plan to get started.</p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Do I need a subscription?</h4>
+            <p>Yes, all businesses must subscribe to a plan via Apple In-App Purchase to unlock app features like campaigns, coupons, products, and rewards.</p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Can I create multiple business profiles?</h4>
+            <p>Yes, depending on your subscription plan, you can create and manage multiple profiles, each able to create campaigns, coupons, deals, and rewards.</p>
+          </div>
+
+          <div class="faq-item">
+            <h4>How do I manage customer points?</h4>
+            <p>You can award Business Points to customers, track their points, and manage redemptions efficiently from the app dashboard.</p>
+          </div>
+
+          <div class="faq-item">
+            <h4>How do I create campaigns, coupons, deals, events, and jobs?</h4>
+            <p>Use your business profile to create campaigns, coupons, and deals. Events and jobs can be created exclusively by your main business account.</p>
+          </div>
+
+          <div class="faq-item">
+            <h4>How can I track performance?</h4>
+            <p>View analytics, dashboards, and graphs to understand customer engagement, sales, and campaign effectiveness.</p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Can I invite customers not on Shopdit?</h4>
+            <p>Yes, you can send email invites to potential customers to join the platform and access your deals, coupons, and rewards.</p>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <footer>
